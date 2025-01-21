@@ -26,24 +26,28 @@ public class Test {
 	
 			if(ch==1) {
 				ssi.addCourse();
+				System.out.println("Course Added Successfully...");
 			}
 			else if(ch==2){
 	            ssi.viewCourse();
 	        }
 	        else if(ch==3){
 	            ssi.addFaculty();
+	            System.out.println("Faculty Added Successfully...");
 	        }
 	        else if(ch==4){
 	            ssi.viewFaculty();
 	        }
 	        else if(ch==5){
 	            ssi.addBatch();
+	            System.out.println("Batch Added Successfully...");
 	        }
 	        else if(ch==6){
 	            ssi.viewBatch();
 	        }
 	        else if(ch==7){
 	            ssi.addStudent();
+	            System.out.println("Student Added Successfully...");
 	        }
 	        else if(ch==8){
 	            ssi.viewStudent();
