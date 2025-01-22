@@ -21,7 +21,7 @@ public class Test {
 	            System.out.println("7. Add Student Info");
 	            System.out.println("8. View Student Info");
 	            System.out.println("9. Exit");
-		System.out.println("Enter the Choice");
+		System.out.println("Enter the Choice for a perticular option :\n");
 		int ch=sc.nextInt();
 	
 			if(ch==1) {
